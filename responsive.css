@@ -1,0 +1,221 @@
+@media screen and (max-width: 900px) {
+    body{
+        height: auto;
+    }
+    .wrapper{
+        width: 100%;
+        height: auto;
+    }
+    nav .menu{
+        display: block;
+        height: 30px;
+        width: 40px;
+        z-index: 3333;
+    }
+    nav h2{
+       margin-left:-60px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .ul1{
+        position: absolute;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 70%;
+        height: 100%;
+        top:0;
+        left: 0;
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 100px;
+        font-size: 22px;
+        z-index: 2222;
+        display: none;
+    }
+    nav .ul1 li{
+        margin: 15px 0;
+        font-weight: 700;
+    }
+    .backet-profile{
+        right: 0;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .product-content{
+        width:100%;
+        border: none;
+    }
+    .product-design{
+        border-radius: 0;
+        width: 100%;
+        aspect-ratio: 1 /1;
+        /* height: 220px; */
+        background: url('./images/image-product-1.jpg') no-repeat center top / cover;
+    }
+    .product-design:hover{
+        transform: none;
+    }
+    .iconButton{
+       display: flex;
+    }
+    .product-choices{
+       display: none;
+    }
+   
+    .description-content{
+        width: 100%;
+        padding: 20px;
+    }
+    .description-content h2 .pricedata{
+        font-size: 28px;
+    }
+    .description-content h2 {
+        margin: 25px 0;
+    }
+    .description-content h2::after{
+        content: "$ 250.00";
+        text-decoration: line-through;
+        color: hsl(219, 9%, 45%);
+        position: absolute;
+        right: 20px;
+    }
+    .description-content h5{
+        display: none;
+    }
+    .addtocart{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+    .addtocart .plus-minus{
+        width: 100%;
+        height: 60px;
+        justify-content: space-between;
+    }
+    .addtocart .plus-minus button{
+        width: 90px;
+        font-size: 40px;
+    }
+    .addtocart .plus-minus h3{
+        font-size: 30px;
+    }
+    .add2cart{
+        width: 100%;
+        height: 60px;
+    }
+    .add2cart img{
+        width: 40px;
+        height: 40px;
+    }
+    .add2cart span{
+        font-size: 24px;
+    }
+    .wrapper2{
+        display: none;
+    }
+    .cart-container{
+        width: 95%;
+        height: 300px;
+        right: 0;
+        left: 10px;
+        z-index: 2222;
+    }
+    .check-out{
+        height: 80px;
+
+    }
+    .check-out .check-out-image{
+        width: 80px;
+    }
+    .check-out p{
+        width: calc(100% - 60px);
+        font-size: 19px;
+        line-height: 40px;
+    }
+    .check-out .quantity{
+        margin: 0 10px;
+        font-size: 25px;
+    }
+    .check-out #price{
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    .check-out .total{
+        font-size: 26px;
+    }
+
+    .check-out i{
+        right: 50%;
+        top: 55%;
+    }
+    .cart-container .checkOut{
+        margin-top: 55px;
+        height: 70px;
+        width: 100%;
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:1400px) {
+    .product-design{
+        min-height: 450px;
+    }
+    .description-content h3{
+        font-size: 22px;
+    }
+    .description-content h1{
+        font-size: 45px;
+    }
+    .description-content p{
+        font-size: 20px;
+    }
+    .description-content h2 .pricedata{
+        font-size: 29px;
+    }
+    .description-content span{
+        font-size: 19px;
+    }
+    .description-content h5{
+        font-size: 29px;
+    }
+}
+
+@media screen and (min-width:1800px) {
+    .product-design{
+        min-height: 550px;
+    }
+    .product-choices{
+        height: 100px;
+    }
+    .description-content h3{
+        font-size: 25px;
+    }
+    .description-content h1{
+        font-size: 50px;
+    }
+    .description-content p{
+        font-size: 23px;
+    }
+    .description-content h2 .pricedata{
+        font-size: 36px;
+    }
+    .description-content span{
+        font-size: 24px;
+    }
+    .description-content h5{
+        font-size: 32px;
+    }
+    .addtocart{
+        height: 60px;
+    }
+    .addtocart .plus-minus{
+        width: 190px;
+        height: 100%;
+        font-size: 40px;
+    }
+    .add2cart{
+        width: 250px;
+    }
+}
